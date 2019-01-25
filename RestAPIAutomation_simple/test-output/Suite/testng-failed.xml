@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Rest API(failed)">
+    <classes>
+      <class name="tests.AddandDeletePlaces_with_property_file">
+        <methods>
+          <include name="GetDatafromproperties"/>
+          <include name="AddData"/>
+        </methods>
+      </class> <!-- tests.AddandDeletePlaces_with_property_file -->
+      <class name="tests.Xml_request_testing">
+        <methods>
+          <include name="AddData"/>
+          <include name="GetDatafromproperties"/>
+        </methods>
+      </class> <!-- tests.Xml_request_testing -->
+      <class name="tests.AddandDeletePlaceUsingExtract">
+        <methods>
+          <include name="AddData"/>
+          <include name="GetDatafromproperties"/>
+        </methods>
+      </class> <!-- tests.AddandDeletePlaceUsingExtract -->
+      <class name="tests.JIRA_Create_Session_Add_Defect_Add_Comment_Update_Comment">
+        <methods>
+          <include name="getJIRASession"/>
+        </methods>
+      </class> <!-- tests.JIRA_Create_Session_Add_Defect_Add_Comment_Update_Comment -->
+      <class name="tests.logging_in_Request">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- tests.logging_in_Request -->
+    </classes>
+  </test> <!-- Rest API(failed) -->
+</suite> <!-- Failed suite [Suite] -->
