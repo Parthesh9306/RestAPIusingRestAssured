@@ -39,6 +39,7 @@ public class PostData {
 	//String responsestring = res.asString();
 	
 //	System.out.println(responsestring);
+	System.out.println(res.getStatusCode());
 	}
 	
 	
